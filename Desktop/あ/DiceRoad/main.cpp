@@ -5,6 +5,7 @@
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
 {
+	// test
 	SetWindowText("1701309_êÏìc ûx");
 	SetGraphMode(SCREEN_SIZE_X, SCREEN_SIZE_Y, 16);	// âÊñ ª≤Ωﬁê›íË
 	ChangeWindowMode(true);				// true:windowÅ@false:ÃŸΩ∏ÿ∞›
