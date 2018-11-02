@@ -126,11 +126,13 @@
   <ItemGroup>
     <ClInclude Include="ImageMng.h" />
     <ClInclude Include="main.h" />
+    <ClInclude Include="MouseCtl.h" />
     <ClInclude Include="VECTOR2.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ImageMng.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MouseCtl.cpp" />
     <ClCompile Include="VECTOR2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -10,6 +10,9 @@
     <ClInclude Include="main.h">
       <Filter>h</Filter>
     </ClInclude>
+    <ClInclude Include="MouseCtl.h">
+      <Filter>h</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="cpp">
@@ -27,6 +30,9 @@
       <Filter>cpp</Filter>
     </ClCompile>
     <ClCompile Include="VECTOR2.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseCtl.cpp">
       <Filter>cpp</Filter>
     </ClCompile>
   </ItemGroup>
