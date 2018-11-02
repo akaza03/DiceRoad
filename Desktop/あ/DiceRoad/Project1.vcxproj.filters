@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="ImageMng.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="VECTOR2.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>h</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="cpp">
+      <UniqueIdentifier>{23e1ebe3-4783-475a-b4b6-9ec7c36068ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="h">
+      <UniqueIdentifier>{459e85df-f34c-40ab-897a-26a515ce0812}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageMng.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="VECTOR2.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
