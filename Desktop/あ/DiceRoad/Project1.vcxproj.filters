@@ -13,13 +13,13 @@
     <ClInclude Include="MouseCtl.h">
       <Filter>h</Filter>
     </ClInclude>
-    <ClInclude Include="DICE1.h" />
-    <ClInclude Include="DICE2.h" />
-    <ClInclude Include="DICE3.h" />
     <ClInclude Include="DiceBlock.h" />
     <ClInclude Include="Dice6.h" />
     <ClInclude Include="Dice4.h" />
     <ClInclude Include="Dice5.h" />
+    <ClInclude Include="Dice1.h" />
+    <ClInclude Include="Dice2.h" />
+    <ClInclude Include="Dice3.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="cpp">
@@ -42,12 +42,12 @@
     <ClCompile Include="MouseCtl.cpp">
       <Filter>cpp</Filter>
     </ClCompile>
-    <ClCompile Include="DICE1.cpp" />
-    <ClCompile Include="DICE2.cpp" />
-    <ClCompile Include="DICE3.cpp" />
     <ClCompile Include="DiceBlock.cpp" />
     <ClCompile Include="Dice6.cpp" />
     <ClCompile Include="Dice4.cpp" />
     <ClCompile Include="Dice5.cpp" />
+    <ClCompile Include="Dice2.cpp" />
+    <ClCompile Include="Dice3.cpp" />
+    <ClCompile Include="Dice1.cpp" />
   </ItemGroup>
 </Project>
