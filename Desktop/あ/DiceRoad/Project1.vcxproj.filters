@@ -13,7 +13,15 @@
     <ClInclude Include="MouseCtl.h">
       <Filter>h</Filter>
     </ClInclude>
-    <ClInclude Include="DiceState.h" />
+    <ClInclude Include="DiceState.h">
+      <Filter>Dice</Filter>
+    </ClInclude>
+    <ClInclude Include="GmaeBoard.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDice.h">
+      <Filter>Dice</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="cpp">
@@ -39,6 +47,14 @@
     <ClCompile Include="MouseCtl.cpp">
       <Filter>cpp</Filter>
     </ClCompile>
-    <ClCompile Include="DiceState.cpp" />
+    <ClCompile Include="DiceState.cpp">
+      <Filter>Dice</Filter>
+    </ClCompile>
+    <ClCompile Include="GmaeBoard.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDice.cpp">
+      <Filter>Dice</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
