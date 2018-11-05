@@ -10,6 +10,16 @@
     <ClInclude Include="main.h">
       <Filter>h</Filter>
     </ClInclude>
+    <ClInclude Include="MouseCtl.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="DICE1.h" />
+    <ClInclude Include="DICE2.h" />
+    <ClInclude Include="DICE3.h" />
+    <ClInclude Include="DICE5.h" />
+    <ClInclude Include="DiceBlock.h" />
+    <ClInclude Include="Dice6.h" />
+    <ClInclude Include="Dice4.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="cpp">
@@ -29,5 +39,15 @@
     <ClCompile Include="VECTOR2.cpp">
       <Filter>cpp</Filter>
     </ClCompile>
+    <ClCompile Include="MouseCtl.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="DICE1.cpp" />
+    <ClCompile Include="DICE2.cpp" />
+    <ClCompile Include="DICE3.cpp" />
+    <ClCompile Include="DICE5.cpp" />
+    <ClCompile Include="DiceBlock.cpp" />
+    <ClCompile Include="Dice6.cpp" />
+    <ClCompile Include="Dice4.cpp" />
   </ItemGroup>
 </Project>
