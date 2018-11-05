@@ -130,6 +130,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClInclude Include="DICE1.h" />
     <ClInclude Include="DICE2.h" />
     <ClInclude Include="DICE3.h" />
@@ -137,12 +138,18 @@
     <ClInclude Include="Dice4.h" />
     <ClInclude Include="Dice6.h" />
     <ClInclude Include="DiceBlock.h" />
+=======
+    <ClInclude Include="DiceState.h" />
+    <ClInclude Include="GameDice.h" />
+    <ClInclude Include="GmaeBoard.h" />
+>>>>>>> c89bdf1f4b62a16ab7fc2496aab30f2f8a813b98
     <ClInclude Include="ImageMng.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="MouseCtl.h" />
     <ClInclude Include="VECTOR2.h" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="DICE1.cpp" />
     <ClCompile Include="DICE2.cpp" />
     <ClCompile Include="DICE3.cpp" />
@@ -150,6 +157,11 @@
     <ClCompile Include="Dice4.cpp" />
     <ClCompile Include="Dice6.cpp" />
     <ClCompile Include="DiceBlock.cpp" />
+=======
+    <ClCompile Include="DiceState.cpp" />
+    <ClCompile Include="GameDice.cpp" />
+    <ClCompile Include="GmaeBoard.cpp" />
+>>>>>>> c89bdf1f4b62a16ab7fc2496aab30f2f8a813b98
     <ClCompile Include="ImageMng.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MouseCtl.cpp" />
