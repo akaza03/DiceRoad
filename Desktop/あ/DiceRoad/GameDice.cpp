@@ -1,6 +1,6 @@
-#include "GameDice.h"
 #include "DxLib.h"
 #include "VECTOR2.h"
+#include "GameDice.h"
 
 
 GameDice::GameDice()
