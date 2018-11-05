@@ -130,11 +130,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Dice1.h" />
-    <ClInclude Include="Dice2.h" />
-    <ClInclude Include="Dice3.h" />
+    <ClInclude Include="DICE1.h" />
+    <ClInclude Include="DICE2.h" />
+    <ClInclude Include="DICE3.h" />
+    <ClInclude Include="DICE5.h" />
     <ClInclude Include="Dice4.h" />
-    <ClInclude Include="Dice5.h" />
     <ClInclude Include="Dice6.h" />
     <ClInclude Include="DiceBlock.h" />
     <ClInclude Include="ImageMng.h" />
@@ -143,11 +143,11 @@
     <ClInclude Include="VECTOR2.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Dice1.cpp" />
-    <ClCompile Include="Dice2.cpp" />
-    <ClCompile Include="Dice3.cpp" />
+    <ClCompile Include="DICE1.cpp" />
+    <ClCompile Include="DICE2.cpp" />
+    <ClCompile Include="DICE3.cpp" />
+    <ClCompile Include="DICE5.cpp" />
     <ClCompile Include="Dice4.cpp" />
-    <ClCompile Include="Dice5.cpp" />
     <ClCompile Include="Dice6.cpp" />
     <ClCompile Include="DiceBlock.cpp" />
     <ClCompile Include="ImageMng.cpp" />
