@@ -13,6 +13,7 @@
     <ClInclude Include="MouseCtl.h">
       <Filter>h</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="DICE1.h" />
     <ClInclude Include="DICE2.h" />
     <ClInclude Include="DICE3.h" />
@@ -20,6 +21,9 @@
     <ClInclude Include="DiceBlock.h" />
     <ClInclude Include="Dice6.h" />
     <ClInclude Include="Dice4.h" />
+=======
+    <ClInclude Include="DiceState.h" />
+>>>>>>> 57fc754f5e3cce45d640fbe7c6ad071c99fbce31
   </ItemGroup>
   <ItemGroup>
     <Filter Include="cpp">
@@ -27,6 +31,9 @@
     </Filter>
     <Filter Include="h">
       <UniqueIdentifier>{459e85df-f34c-40ab-897a-26a515ce0812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dice">
+      <UniqueIdentifier>{24797aae-45a3-4639-8fc2-a20eb1eab192}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -42,6 +49,7 @@
     <ClCompile Include="MouseCtl.cpp">
       <Filter>cpp</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="DICE1.cpp" />
     <ClCompile Include="DICE2.cpp" />
     <ClCompile Include="DICE3.cpp" />
@@ -49,5 +57,8 @@
     <ClCompile Include="DiceBlock.cpp" />
     <ClCompile Include="Dice6.cpp" />
     <ClCompile Include="Dice4.cpp" />
+=======
+    <ClCompile Include="DiceState.cpp" />
+>>>>>>> 57fc754f5e3cce45d640fbe7c6ad071c99fbce31
   </ItemGroup>
 </Project>
