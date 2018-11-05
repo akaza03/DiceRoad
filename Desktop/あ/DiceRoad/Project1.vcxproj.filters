@@ -13,6 +13,7 @@
     <ClInclude Include="MouseCtl.h">
       <Filter>h</Filter>
     </ClInclude>
+    <ClInclude Include="DiceState.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="cpp">
@@ -20,6 +21,9 @@
     </Filter>
     <Filter Include="h">
       <UniqueIdentifier>{459e85df-f34c-40ab-897a-26a515ce0812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dice">
+      <UniqueIdentifier>{24797aae-45a3-4639-8fc2-a20eb1eab192}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -35,5 +39,6 @@
     <ClCompile Include="MouseCtl.cpp">
       <Filter>cpp</Filter>
     </ClCompile>
+    <ClCompile Include="DiceState.cpp" />
   </ItemGroup>
 </Project>
