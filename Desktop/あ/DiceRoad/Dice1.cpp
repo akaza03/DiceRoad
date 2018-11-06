@@ -18,5 +18,5 @@ DICE_ST Dice1::GetState(void)
 
 unsigned int Dice1::DrawDice(void)
 {
-	return IMAGE_ID("image/Dice(—Lü)/01.png")[0];
+	//return IMAGE_ID("image/Dice(—Lü)/01.png")[0];
 }
