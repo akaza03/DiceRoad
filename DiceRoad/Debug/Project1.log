@@ -2,7 +2,16 @@
   Dice2.cpp
   Dice3.cpp
   Dice4.cpp
+  Dice5.cpp
   Dice6.cpp
   DiceBlock.cpp
+  DiceState.cpp
+  GameBoard.cpp
+d:\source\diceroad\diceroad\gameboard.cpp(26): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  GameDice.cpp
+  ImageMng.cpp
+  main.cpp
+  MouseCtl.cpp
+  VECTOR2.cpp
   コードを生成中...
-  Project1.vcxproj -> D:\source\DiceRoad\Desktop\あ\DiceRoad\Debug\DiceRoad.exe
+  Project1.vcxproj -> D:\source\DiceRoad\DiceRoad\Debug\DiceRoad.exe
