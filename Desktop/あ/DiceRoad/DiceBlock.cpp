@@ -18,6 +18,6 @@ DICE_ST DiceBlock::GetState(void)
 
 unsigned int DiceBlock::DrawDice(void)
 {
-	//return IMAGE_ID("image/Dice(—Lü)/Block.png")[0];
+	return IMAGE_ID("image/Dice(—Lü)/Block.png")[0];
 }
 
