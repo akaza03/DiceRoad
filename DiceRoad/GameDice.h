@@ -2,8 +2,7 @@
 #include "DiceState.h"
 #include <list>
 #include <memory>
-
-class VECTOR2;
+#include "VECTOR2.h"
 class GameDice;
 
 using dice_ptr = std::shared_ptr<GameDice>;
@@ -18,6 +17,11 @@ public:
 	GameDice();
 	GameDice(VECTOR2 pos, VECTOR2 drawOffset, DICE_ST state);
 	~GameDice();
+	void SetState(DICE_ST state);
+	DICE_ST GetState(void);
+	bool SetPos(VECTOR2 pos);
+	bool SetDrawOffset(VECTOR2 drawOffset);
+	void Draw(void);
 private:
 	diceST_uniList state;
 	VECTOR2 pos;
