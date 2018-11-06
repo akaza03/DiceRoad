@@ -18,6 +18,6 @@ public:
 	//DiceState();
 	virtual ~DiceState();
 	virtual DICE_ST GetState(void) = 0;
-	virtual void DrawDice(void) = 0;
+	virtual unsigned int DrawDice(void) = 0;
 };
 

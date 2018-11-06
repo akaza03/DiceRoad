@@ -8,6 +8,6 @@ public:
 	Dice4();
 	~Dice4();
 	DICE_ST GetState(void);
-	void DrawDice(void);
+	unsigned int DrawDice(void);
 };
 
