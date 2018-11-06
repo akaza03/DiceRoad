@@ -1,4 +1,4 @@
-#include "GmaeBoard.h"
+#include "GameBoard.h"
 
 #define DEF_BOARD_CNT (8)
 #define MASS_SIZE (64)
@@ -6,20 +6,20 @@
 #define SCREEN_SIZE_X 800	// ‚Æ‚è‚ ‚¦‚¸	Task‚Ì•û‚Éì‚é‚È‚çÁ‚µ‚Ä‚¢‚¢
 #define SCREEN_SIZE_Y 600	// “¯ã			Á‚·ê‡‚ÍBoardSet‚ğC³‚·‚é‚±‚Æ
 
-GmaeBoard::GmaeBoard()
+GameBoard::GameBoard()
 {
 }
 
-GmaeBoard::GmaeBoard(VECTOR2 vec)
+GameBoard::GameBoard(VECTOR2 vec)
 {
 }
 
 
-GmaeBoard::~GmaeBoard()
+GameBoard::~GameBoard()
 {
 }
 
-bool GmaeBoard::BoardSet(VECTOR2 vec)
+bool GameBoard::BoardSet(VECTOR2 vec)
 {
 	basedata.resize(vec.y*vec.x);
 	data.resize(vec.y);

@@ -132,8 +132,8 @@
     <ClInclude Include="Dice6.h" />
     <ClInclude Include="DiceBlock.h" />
     <ClInclude Include="DiceState.h" />
+    <ClInclude Include="GameBoard.h" />
     <ClInclude Include="GameDice.h" />
-    <ClInclude Include="GmaeBoard.h" />
     <ClInclude Include="ImageMng.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="MouseCtl.h" />
@@ -148,8 +148,8 @@
     <ClCompile Include="Dice6.cpp" />
     <ClCompile Include="DiceBlock.cpp" />
     <ClCompile Include="DiceState.cpp" />
+    <ClCompile Include="GameBoard.cpp" />
     <ClCompile Include="GameDice.cpp" />
-    <ClCompile Include="GmaeBoard.cpp" />
     <ClCompile Include="ImageMng.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MouseCtl.cpp" />

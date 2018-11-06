@@ -16,9 +16,6 @@
     <ClInclude Include="DiceState.h">
       <Filter>Dice</Filter>
     </ClInclude>
-    <ClInclude Include="GmaeBoard.h">
-      <Filter>h</Filter>
-    </ClInclude>
     <ClInclude Include="GameDice.h">
       <Filter>Dice</Filter>
     </ClInclude>
@@ -42,6 +39,9 @@
     </ClInclude>
     <ClInclude Include="DiceBlock.h">
       <Filter>Dice</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBoard.h">
+      <Filter>h</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -71,9 +71,6 @@
     <ClCompile Include="DiceState.cpp">
       <Filter>Dice</Filter>
     </ClCompile>
-    <ClCompile Include="GmaeBoard.cpp">
-      <Filter>cpp</Filter>
-    </ClCompile>
     <ClCompile Include="GameDice.cpp">
       <Filter>Dice</Filter>
     </ClCompile>
@@ -97,6 +94,9 @@
     </ClCompile>
     <ClCompile Include="DiceBlock.cpp">
       <Filter>Dice</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBoard.cpp">
+      <Filter>cpp</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

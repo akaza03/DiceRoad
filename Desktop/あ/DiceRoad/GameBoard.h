@@ -6,12 +6,12 @@
 #include "GameDice.h"
 
 
-class GmaeBoard
+class GameBoard
 {
 public:
-	GmaeBoard();									// デフォルトでは8*8
-	GmaeBoard(VECTOR2 vec);							// 指定した大きさの盤面を作る
-	~GmaeBoard();
+	GameBoard();									// デフォルトでは8*8
+	GameBoard(VECTOR2 vec);							// 指定した大きさの盤面を作る
+	~GameBoard();
 private:
 	VECTOR2 BoardSize;								//　盤面のサイズ
 	bool BoardSet(VECTOR2 vec);						// 盤面をセット

@@ -1,8 +1,13 @@
 #pragma once
-class Dice5
+#include "DiceState.h"
+
+class Dice5 :
+	public DiceState
 {
 public:
 	Dice5();
 	~Dice5();
+	DICE_ST GetState(void);
+	void DrawDice(void);
 };
 
