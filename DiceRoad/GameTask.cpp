@@ -42,7 +42,7 @@ GameTask::~GameTask()
 
 int GameTask::SysInit(void)
 {
-	SetWindowText("1701309_川田 栞");
+	SetWindowText("サイコロード");
 	SetGraphMode(SCREEN_SIZE_X, SCREEN_SIZE_Y, 16);	// 画面ｻｲｽﾞ設定
 	ChangeWindowMode(true);				// true:window　false:ﾌﾙｽｸﾘｰﾝ
 	if (DxLib_Init() == -1)        // ＤＸライブラリ初期化処理
